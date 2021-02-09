@@ -1,0 +1,8 @@
+"""homes.co.nz domain and API endpoints."""
+BASE_URL = "https://gateway.homes.co.nz"
+SEARCH_ADDRESS_ENDPOINT = "/address/search?Address="
+GET_PROPERTY_ID_ENDPOINT = "/property/resolve?address="
+GET_PROPERTY_ENDPOINT = "/properties?property_ids="
+GET_TIMELINE_ENDPOINT = "/property/0/timeline"
+GET_ESTIMATE_HISTORY_ENDPOINT = "/estimate/history/"
+GET_DETAILS_ENDPOINT = "/property/0/detail"
